@@ -1,0 +1,139 @@
+body {
+	background-color: grey;
+}
+
+table {
+	min-width: 375px;
+	width: 98%;
+	margin: 50px 0;
+	text-align: center;
+	font-size: 16px;
+}
+section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+table,
+.column {
+	border: 1px solid black;
+}
+.row {
+	height: 100px;
+}
+.column-name {
+	width: 25%;
+	padding: 10px;
+	background-color: var(--red);
+}
+.column-name span {
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.img {
+	position: relative;
+	top: 2px;
+}
+.odd {
+	background-color: #ddd;
+}
+.even {
+	background-color: #fff;
+}
+.column {
+	padding: 10px;
+}
+
+/* ustalenie szerokości kolumn w tabeli komiksów */
+.comics .first {
+	width: 8%;
+}
+.comics .second {
+	width: 22%;
+}
+.comics .third {
+	width: 20%;
+}
+.comics .fourth {
+	width: 10%;
+}
+.comics .fifth {
+	width: 40%;
+}
+
+/* ustalenie szerokości kolumn w tabeli gier komputerowych */
+.computer .first {
+	width: 8%;
+}
+.computer .second {
+	width: 19%;
+}
+.computer .third {
+	width: 19%;
+}
+.computer .fourth {
+	width: 18%;
+}
+.computer .fifth {
+	width: 18%;
+}
+.computer .sixth {
+	width: 14%;
+}
+.computer .seventh {
+	width: 4%;
+}
+.computer .eighth {
+	width: 4%;
+}
+
+/* ustalenie szerokości kolumn w tabeli gier planszowych */
+.board .first {
+	width: 8%;
+}
+.board .second {
+	width: 19%;
+}
+.board .third {
+	width: 19%;
+}
+.board .fourth {
+	width: 18%;
+}
+.board .fifth {
+	width: 18%;
+}
+.board .sixth {
+	width: 14%;
+}
+.board .seventh {
+	width: 14%;
+}
+
+@media (max-width: 500px) {
+	.display500 {
+		display: none;
+	}
+}
+@media (max-width: 920px) {
+	.display920 {
+		display: none;
+	}
+}
+@media (min-width: 1280px) {
+	table {
+		width: 95%;
+	}
+}
+@media (min-width: 1400px) {
+	table {
+		width: 90%;
+	}
+}
+@media (min-width: 1600px) {
+	table {
+		width: 85%;
+	}
+}
